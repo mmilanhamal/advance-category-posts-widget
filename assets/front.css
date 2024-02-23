@@ -1,0 +1,83 @@
+.widget_acpw_posts_category_widget .owl-theme .owl-nav [class*="owl-"]{
+ 	margin: 0;
+ 	width: 40px;
+ 	height: 40px;
+ 	font-size: 0;
+ 	background: rgba(0, 0, 0, 0.75);
+ 	border-radius: 0;
+ 	position: absolute;
+ 	-webkit-transition: ease 0.2s;
+ 	-moz-transition: ease 0.2s;
+ 	transition: ease 0.2s;
+ }
+
+ .widget_acpw_posts_category_widget .owl-theme .owl-prev{
+ 	top: 75px;
+ 	left: 0;
+ }
+
+ .widget_acpw_posts_category_widget .owl-theme .owl-prev:after{
+ 	content: '\f139';
+ 	font-family: 'dashicons';
+ 	font-size: 50px;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	-webkit-transform: translate(-50%, -50%);
+ 	-moz-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+ }
+
+ .widget_acpw_posts_category_widget .owl-next{
+ 	top: 75px;
+ 	right: 0;
+ }
+
+ .widget_acpw_posts_category_widget .owl-theme .owl-next:after{
+ 	content: '\f141';
+ 	font-family: 'dashicons';
+ 	font-size: 50px;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	-webkit-transform: translate(-50%, -50%);
+ 	-moz-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+ }
+
+ .widget_acpw_posts_category_widget .post-thumbnail{
+ 	display: block;
+ 	margin-bottom: 15px; 
+ }
+
+ .widget_acpw_posts_category_widget .carousel-title{
+ 	text-align: center;
+ }
+
+ .widget_acpw_posts_category_widget .carousel-title .cat-links{
+ 	display: block;
+ 	font-size: 14px;
+ 	font-weight: 500;
+ }
+
+ .widget_acpw_posts_category_widget .carousel-title .cat-links a{margin: 0 3px;}
+
+ .widget_acpw_posts_category_widget .carousel-title .title{
+ 	font-size: 18px;
+ 	line-height: 26px;
+ 	font-weight: 400;
+ }
+
+ .widget_acpw_posts_category_widget .owl-theme .owl-dots .owl-dot span{
+ 	margin: 0 3px;
+ 	background: #eee;
+ }
+
+ .widget_acpw_posts_category_widget .owl-theme .owl-dots .owl-dot span:hover,
+ .widget_acpw_posts_category_widget .owl-theme .owl-dots .owl-dot span:hover{
+ 	background: #111;
+ }
+
+ .widget_acpw_posts_category_widget .owl-theme .owl-dots .owl-dot.active span{
+ 	background: #111;
+ }

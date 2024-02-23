@@ -1,0 +1,7 @@
+.example-text{
+	font-style: italic;
+	opacity: 0.8;
+}
+.time-options input, .time-options select {
+    width: 135px;
+}
